@@ -2,6 +2,7 @@
 - [ Ionic Web ]( https://ionicframework.com/ )
 - Learning Source :
   - [ 2Hrs Tutorial ](https://www.youtube.com/watch?v=mQ4zmFy4d7Y)
+  - [ Ionic Components ](https://ionicframework.com/docs/components)
 - Usage :
   - created an app on official website
   - link it with github and establish repo automatically
@@ -22,3 +23,9 @@
     ```cmd=
     npm uninstall --save typescript @types/jest @typescript-eslint/eslint-plugin @typescript-eslint/parser @vue/cli-plugin-typescript @vue/eslint-config-typescript
     ```
+- Records
+  - ```ionic serve```
+  - [ Color Generator ](https://ionicframework.com/docs/theming/color-generator)
+    - Set theme colors with primary, secondary, contrast and so on
+    - ![](https://i.imgur.com/Wduuq88.png)
+  - First making record page 
