@@ -1,9 +1,19 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
 import Tabs from '../views/Tabs.vue'
+import record from '../views/record.vue'
 
 const routes = [
   {
     path: '/',
+    redirect: '/record',
+
+  },
+  {
+    path: '/record',
+    component: record
+  },
+  {
+    path: '/tabs',
     redirect: '/tabs/tab1'
   },
   {
